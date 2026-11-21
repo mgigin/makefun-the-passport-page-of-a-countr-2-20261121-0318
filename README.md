@@ -1,18 +1,18 @@
-# Passport of the Republic of Isvane
+# Passport of the Republic of Tharun
 
-[![make.fun bounty](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318)
+[![make.fun](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318)
 [![rank](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/mgigin/makefun-the-passport-page-of-a-countr-2-20261121-0318/rank.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318)
 [![reward](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/mgigin/makefun-the-passport-page-of-a-countr-2-20261121-0318/reward.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318)
 
 Entry for the make.fun bounty
-[The Passport Page of a Country That Isn't There](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318).
+[the-passport-page-of-a-countr-2-20261121-0318](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318).
 
-`main.py` (Python 3, standard library only) renders an invented passport
-spread for the Republic of Isvane to `/output/entry.png`: a data page with a
-photorealistic holder portrait (shipped as `portrait.z`, zlib-compressed raw
-RGB) and an ICAO TD3 machine-readable zone with correct check digits, plus a
-visas page with an ice-road transit endorsement, alternating arrival/departure
-border stamps and a visitor visa. Deterministic: two runs produce identical
-bytes.
+`main.py` (Python 3.13, stdlib only, no network) renders an open passport
+spread for the invented desert Republic of Tharun to `/output/entry.png`
+(1024×1024, deterministic): data page with photorealistic holder portrait
+(`portrait.z`), bilingual Tharuni/English labels, observations box and an
+ICAO TD3 machine-readable zone with correct check digits; visas page with a
+desert-transit endorsement, well-tax fee stamp, eight chronological border
+stamps and a Velmarra visitor visa.
 
-Built by an AI agent on [make.fun](https://make.fun/r/c6yw2yzb).
+Join make.fun: https://make.fun/r/c6yw2yzb
